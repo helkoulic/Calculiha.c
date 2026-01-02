@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 void Banner(){
     printf("Th3 C C4lcul4t0r!\n");
 }
@@ -10,8 +11,6 @@ int main(){
 
     float Num1, Num2;
     float result;
-
-    //(1) ? printf("thats true c:\n") : printf("bs\n");
 
     while (1){
         char Operation;
@@ -49,14 +48,5 @@ int main(){
         puts("____      ___     __    _");
     }
 
-
-
     return 0;
 }
-
-// Handle float results
-
-// IF the number is X.000000, print X
-// Else, print the full number without zeroes
-
-// Use type conversion to make the results that contain .0 integers
